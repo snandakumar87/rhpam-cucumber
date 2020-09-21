@@ -15,6 +15,6 @@ This project makes testing of RHPAM processes with Cucumber easier by implementi
    cd simple_process_test
    mvn clean install 
    ```
-3. Run the Example.feature or mvn clean test. The test reports are available @ /target/surefire-reports  
+3. On this repo, Run the Example.feature or mvn clean test. The test reports are available @ /target/surefire-reports  
 
  

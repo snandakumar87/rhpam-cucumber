@@ -21,4 +21,11 @@ public class CustomStepDefinitions {
         testUtil.assertProcessInstanceNotActive(testUtil.getProcessInstance().getId(), testUtil.getKieSession());
     }
 
+    @Then("the process is active")
+    public void processActive() {
+        assertNotNull(testUtil.getProcessInstance());
+        assertNotNull(testUtil.getKieSession());
+        testUtil.assertProcessInstanceActive(testUtil.getProcessInstance().getId(), testUtil.getKieSession());
+    }
+
 }

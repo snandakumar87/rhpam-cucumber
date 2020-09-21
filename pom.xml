@@ -53,8 +53,8 @@
     <dependencies>
         <!-- domain models & kjars -->
         <dependency>
-            <groupId>com.pamtests</groupId>
-            <artifactId>ExampleCucumberProject</artifactId>
+            <groupId>com.myspace</groupId>
+            <artifactId>simple_process_test</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
 
